@@ -1,7 +1,7 @@
 ---
-sectionid: lab2-appoverview
+sectionid: lab2-app-install
 sectionclass: h2
-title: Application Overview
+title: Application Installation
 parent-id: lab-clusterapp
 ---
 
