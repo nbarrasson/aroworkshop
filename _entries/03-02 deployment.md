@@ -11,7 +11,7 @@ If not logged in via the CLI, click on the dropdown arrow next to your name in t
 
 {% collapsible %}
 
-![CLI Login](/media/managedlab/7-ostoy-login.png)
+![CLI Login](/media/lab2/7-ostoy-login.png)
 
 Then go to your terminal and paste that command and press enter.  You will see a similar confirmation message if you successfully logged in.
 
@@ -53,7 +53,7 @@ to build a new example application in Ruby.
 
 Equivalently you can also create this new project using the web UI by selecting "Application Console" at the top  then clicking on "+Create Project" button on the right.
 
-![UI Create Project](/media/managedlab/6-ostoy-newproj.png)
+![UI Create Project](/media/lab2/6-ostoy-newproj.png)
 
 {% endcollapsible %}
 
@@ -140,6 +140,6 @@ ostoy-route   ostoy-route-ostoy.apps.abcd1234.eastus.azmosa.io             ostoy
 
 Copy `ostoy-route-ostoy.apps.abcd1234.eastus.azmosa.io` above and paste it into your browser and press enter.  You should see the homepage of our application.
 
-![Home Page](/media/managedlab/10-ostoy-homepage.png)
+![Home Page](/media/lab2/10-ostoy-homepage.png)
 
 {% endcollapsible %}

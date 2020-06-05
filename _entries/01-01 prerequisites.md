@@ -5,35 +5,39 @@ title: Prerequisites
 parent-id: intro
 ---
 
-### Azure subscription and Azure Red Hat OpenShift environment
+
+### Prerequisites
+
+In order to realize the workshop, you will require several components. If you don't have them yet, you'll be guided to acquire them.
+
+- an Azure subscription
+- an Azure Red Had Openshift cluster
+- an Azure DevOps organization
+
+### Azure subscription
 
 {% collapsible %}
 
-If you have been provided with a Microsoft Hands-on Labs environment for this workshop through a registration link and an activation code, please continue to registration and activate the lab.
+Please use your username and password to login to <https://portal.azure.com>.
 
-![Registration](media/managedlab/0-registration.png)
+Also please authenticate your Azure CLI by running the command below on your machine and following the instructions.
 
-After you complete the registration, click Launch Lab
-
-![Launch lab](media/managedlab/1-launchlab.png)
-
-The Azure subscription and associated lab credentials will be provisioned. This will take a few moments. This process will also provision an Azure Red Hat OpenShift cluster.
-
-![Preparing lab](media/managedlab/2-preparinglab.png)
-
-Once the environment is provisioned, a screen with all the appropriate lab credentials will be presented. Additionally, you'll have your Azure Red Hat OpenShift cluster endpoint. The credentials will also be emailed to the email address entered at registration.
-
-![Credentials](media/managedlab/3-credentials.png)
-
-You can now skip the **Create cluster** section and jump to [create project](#createproject).
+```
+az account show
+az login
+```
 
 {% endcollapsible %}
+
+### Azure Red Hat Openshift cluster
+
+You'll need an Openshift Cluster. Either you'll be provided an existing one and credentials, or you have the possibility to create a new one on your own subscription. If you need to create your own cluster, its creation is described in the next chapter. The current version of Openshift expected for this lab is the version 4.3 (or superior).
 
 ### Tools
 
 #### Azure Cloud Shell
 
-You can use the Azure Cloud Shell accessible at <https://shell.azure.com> once you login with an Azure subscription.
+You can either run command lines from your own computer (we recommend using bash) or you can use the Azure Cloud Shell accessible at <https://shell.azure.com> once you login with an Azure subscription.
 
 {% collapsible %}
 
@@ -59,30 +63,39 @@ You should now have access to the Azure Cloud Shell
 
 #### OpenShift CLI (oc)
 
-You'll need to [download the latest OpenShift CLI (oc)](https://github.com/openshift/origin/releases/tag/v3.11.0) client tools for OpenShift 3.11. You can follow the steps below on the Azure Cloud Shell.
+You'll need to download the **latest OpenShift CLI (oc)** client tools for OpenShift 4.3. You can follow the steps below on the Azure Cloud Shell.
 
 {% collapsible %}
 
-> **Note** You'll need to change the link below to the latest link you get from the page.
-> ![GitHub release links](media/github-oc-release.png)
-
-Please run following commands on Azure Cloud Shell to download and setup the OpenShift client.
-
 ```sh
 cd ~
-wget https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
+
+wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux.tar.gz
 
 mkdir openshift
 
-tar -zxvf openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz -C openshift --strip-components=1
+tar -zxvf openshift-client-linux.tar.gz -C openshift
 
 echo 'export PATH=$PATH:~/openshift' >> ~/.bashrc && source ~/.bashrc
 
 ```
 
-The OpenShift CLI (oc) is now installed.
+The OpenShift CLI (oc) is now installed. You can use the **oc version** command to ensure the CLI is properly installed
+
+```sh
+oc version
+```
 
 {% endcollapsible %}
 
-#### GitHub Account
-You'll need a personal GitHub account. You can sign up for free [here](https://github.com/join).
+### Create an Azure DevOps account
+
+You are going to use Azure DevOps for the software factory. You will create your own CI/CD pipelines.
+
+{% collapsible %}
+
+Go to <https://dev.azure.com> and sign-in with your Azure subscription credentials.
+
+If this is your first time to provision an Azure DevOps account, you'll be taken through a quick wizard to create a new organization. Don't worry, it's free.
+
+{% endcollapsible %}

@@ -1,7 +1,7 @@
 full_rebuild: true
-name: "Azure Red Hat OpenShift Workshop"
+name: "Azure Red Hat OpenShift Workshop - Azure DevOps version"
 tracking: "aroworkshop"
-author: Microsoft
+author: Microsoft & Red Hat
 encoding: utf-8
 defaults:
   -

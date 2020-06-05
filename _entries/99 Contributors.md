@@ -7,13 +7,6 @@ is-parent: yes
 
 The following people have contributed to this workshop, thanks!
 
-<div class="github-contributors">
-{% githubauthor chzbrgr71 %}
-{% githubauthor haroldwongms %}
-{% githubauthor jschluchter %}
-{% githubauthor jamesread %}
-{% githubauthor nichochen%}
-{% githubauthor okashi18 %}
-{% githubauthor sabbour %}
-{% githubauthor wgordon17 %}
-</div>
+- Nicolas BARRASSON (Microsoft)
+- Guillaume ESTREM (Red Hat)
+- Louis-Guillaume MORAND (Microsoft)

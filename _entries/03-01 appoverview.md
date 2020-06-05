@@ -5,6 +5,8 @@ title: Application Overview
 parent-id: lab-clusterapp
 ---
 
+This first lab will guide you to install a demo application very quickly and manipulate some components of an OpenShift application
+
 ### Resources
 
 - The source code for this app is available here: <https://github.com/openshift-cs/ostoy>
@@ -29,7 +31,7 @@ OSToy is a simple Node.js application that we will deploy to Azure Red Hat OpenS
 
 ### OSToy Application Diagram
 
-![OSToy Diagram](/media/managedlab/4-ostoy-arch.png)
+![OSToy Diagram](/media/lab2/4-ostoy-arch.png)
 
 ### Familiarization with the Application UI
 
@@ -42,10 +44,10 @@ OSToy is a simple Node.js application that we will deploy to Azure Red Hat OpenS
 7. **Networking:** Tools to illustrate networking within the application.
 8. Shows some more information about the application.
 
-![Home Page](/media/managedlab/10-ostoy-homepage-1.png)
+![Home Page](/media/lab2/10-ostoy-homepage-1.png)
 
 ### Learn more about the application
 
 To learn more, click on the "About" menu item on the left once we deploy the app.
 
-![ostoy About](/media/managedlab/5-ostoy-about.png)
+![ostoy About](/media/lab2/5-ostoy-about.png)
