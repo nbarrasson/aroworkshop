@@ -7,6 +7,8 @@ parent-id: lab-clusterapp
 
 ### Deploy an application from OpenShift Web Console
 
+{% collapsible %}
+
 Red Hat OpenShift proposes several strategies to build and deploy applications on the platform. It is very helpful to leverage containers technology without knowledges about it. 
 
 ![Docker registry connection](/media/lab2/build_strategies_ocp.png)
@@ -75,5 +77,10 @@ Look at resources created by clicking on "Topology" and on the "Pacman" pod.
 
 **Routes** is the url to access the application outside OpenShift cluster.
 
+Click on the url and access the original Pacman game online :  
+
+![Docker registry connection](/media/lab2/pacman.png)
+
 Now we know to use the Web console to build and deploy an application easily, we will use the terminal to deploy an other application with extra Kubernetes resources and explore them !
 
+{% endcollapsible %}
