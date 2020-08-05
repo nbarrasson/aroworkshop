@@ -26,7 +26,7 @@ jobs:
         name: arowks
         path: _site
     - name: Azure Static Website Deploy
-      uses: feeloor/azure-static-website-deploy@v0.1.0
+      uses: lgmorand/azure-static-website-deploy@v0.1.1
       env:
         # The name of the directory you want to upload
         SOURCE_DIR: "./_site"
