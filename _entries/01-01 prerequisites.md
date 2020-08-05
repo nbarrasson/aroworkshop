@@ -37,30 +37,7 @@ You can use the Azure Cloud Shell accessible at <https://shell.azure.com> once y
 
 #### OpenShift CLI (oc)
 
-You'll need to [download the latest OpenShift CLI (oc)](https://github.com/openshift/origin/releases/tag/v3.11.0) client tools for OpenShift 3.11. You can follow the steps below on the Azure Cloud Shell.
-
-{% collapsible %}
-
-> **Note** You'll need to change the link below to the latest link you get from the page.
-> ![GitHub release links](media/github-oc-release.png)
-
-Please run following commands on Azure Cloud Shell to download and setup the OpenShift client.
-
-```sh
-cd ~
-wget https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
-
-mkdir openshift
-
-tar -zxvf openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz -C openshift --strip-components=1
-
-echo 'export PATH=$PATH:~/openshift' >> ~/.bashrc && source ~/.bashrc
-
-```
-
-The OpenShift CLI (oc) is now installed.
-
-{% endcollapsible %}
+The OpenShift CLI (oc) is already installed on your Azure Cloud Shell.
 
 #### GitHub Account
 You'll need a personal GitHub account. You can sign up for free [here](https://github.com/join).
