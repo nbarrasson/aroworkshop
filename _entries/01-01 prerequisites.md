@@ -43,25 +43,11 @@ You can either run command lines from your own computer (we recommend using bash
 
 Head over to <https://shell.azure.com> and sign in with your Azure Subscription details.
 
-Select **Bash** as your shell.
-
-![Select Bash](media/cloudshell/0-bash.png)
-
-Select **Show advanced settings**
-
-![Select show advanced settings](media/cloudshell/1-mountstorage-advanced.png)
-
-Set the **Storage account** and **File share** names to your resource group name (all lowercase, without any special characters). Leave other settings unchanged, then hit **Create storage**
-
-![Azure Cloud Shell](media/cloudshell/2-storageaccount-fileshare.png)
-
-You should now have access to the Azure Cloud Shell
-
-![Set the storage account and fileshare names](media/cloudshell/3-cloudshell.png)
-
 {% endcollapsible %}
 
 #### OpenShift CLI (oc)
+
+> oc cli has been pre-installed on your Cloud Shell. Follow these steps only if you want to install oc cli on your own computer
 
 You'll need to download the **latest OpenShift CLI (oc)** client tools for OpenShift 4.3. You can follow the steps below on the Azure Cloud Shell.
 
@@ -97,5 +83,15 @@ You are going to use Azure DevOps for the software factory. You will create your
 Go to <https://dev.azure.com> and sign-in with your Azure subscription credentials.
 
 If this is your first time to provision an Azure DevOps account, you'll be taken through a quick wizard to create a new organization. Don't worry, it's free.
+
+{% endcollapsible %}
+
+### Install Openshift AzDo extension
+
+In order to interact with the Openshift cluster you'll need the corresponding Azure DevOps extension.
+
+{% collapsible %}
+
+Head over to https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts to install the extension on your organization
 
 {% endcollapsible %}
