@@ -92,6 +92,6 @@ In order to interact with the Openshift cluster you'll need the corresponding Az
 
 {% collapsible %}
 
-Head over to https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts to install the extension on your organization
+Head over to <https://marketplace.visualstudio.com/items?itemName=redhat.openshift-vsts> to install the extension on your organization
 
 {% endcollapsible %}

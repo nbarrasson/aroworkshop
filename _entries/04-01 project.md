@@ -7,6 +7,8 @@ parent-id: lab-todoapp
 
 ### Login to the web console
 
+> You will be provided with a shared Openshift cluster. Use the URL and credentials your proctor provided you to connect to the Web console.
+
 {% collapsible %}
 
 Each Azure Red Hat OpenShift cluster has a public hostname that hosts the OpenShift Web Console.
