@@ -37,6 +37,4 @@ cosmos-todo-5fb4888fcb-vtf4s   1/1     Running   0          12s
 
 {% endcollapsible %}
 
-That's it for the first part. You learnt to build a container image, to publish the image, to create a full CI/CD pipeline, implementing Infrastructure as Code to create resources, deployed your application, scaled it and make it accessible from Internet. Not bad, isn't it ?
-
-Let's move to the second lab to go deeper in some concepts.
+You learnt to build a container image, to publish the image, to create a full CI/CD pipeline, implementing Infrastructure as Code to create resources, deployed your application, scaled it and make it accessible from Internet. Not bad, isn't it ?
