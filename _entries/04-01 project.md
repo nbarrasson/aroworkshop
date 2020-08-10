@@ -5,37 +5,9 @@ title: Create Project
 parent-id: lab-todoapp
 ---
 
-### Login to the web console
+### Retrieve the login command and token
 
 > You will be provided with a shared Openshift cluster. Use the URL and credentials your proctor provided you to connect to the Web console.
-
-{% collapsible %}
-
-Each Azure Red Hat OpenShift cluster has a public hostname that hosts the OpenShift Web Console.
-
-You can use command `az aro list` to list the clusters in your current Azure subscription.
-
-```sh
-az aro list -o table
-```
-
-> The command may not return anything if you were provided an existing cluster which is not in a subscription you have access to
-
-Retrieve your cluster specific hostname. Replace `<cluster name>` and `<resource group>` by those specific to your environment.
-
-```sh
-az aro show -n <cluster name> -g <resource group> --query "consoleProfile" -o tsv
-```
-
-You should get back something like `console-openshift-console.apps.rt80g8x5.eastus.aroapp.io`. Add `https://` to the beginning of that hostname and open that link in your browser. You'll be asked to login with Azure Active Directory. If your cluster was not linked to AAD, you can retrieve the default credentials (Admin) by following [this procedure](https://docs.microsoft.com/en-us/azure/openshift/tutorial-connect-cluster)
-
-After logging in, you should be able to see the Azure Red Hat OpenShift Web Console.
-
-![Azure Red Hat OpenShift Web Console](media/lab1/openshift-webconsole.png)
-
-{% endcollapsible %}
-
-### Retrieve the login command and token
 
 You are now connected to the OpenShift portal but we now need to find a way to be connected through the command line
 

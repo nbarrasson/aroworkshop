@@ -27,8 +27,8 @@ If you need to create your own cluster, its creation is described in the next ch
 
 #### Azure Cloud Shell
 
-You can either run command lines from your own computer (we recommend using bash) or you can use the Azure Cloud Shell accessible at <https://shell.azure.com> once you login with an Azure subscription.
-Head over to <https://shell.azure.com> and sign in with your Azure Subscription details.
+> For this workshop we will use the Azure Cloud Shell accessible at <https://shell.azure.com> or by clicking on this icon in the top right of the Azure portal :
+![Azure Cloud Shell](media/lab1/cloudshell_logo.png)
 
 #### OpenShift CLI (oc)
 

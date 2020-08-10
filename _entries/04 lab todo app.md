@@ -6,4 +6,4 @@ type: nocount
 is-parent: yes
 ---
 
-Now that you have your environment provisioned and the prerequisites fulfilled, it is time to start working on the labs.
+Now that we have learned the Openshift basics, let's get started with the creation of a CI/CD pipeline of a containerized application.
