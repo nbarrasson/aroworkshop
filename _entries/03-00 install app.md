@@ -7,6 +7,8 @@ parent-id: lab-clusterapp
 
 ### Deploy an application from OpenShift Web Console
 
+> Workshop coaches will give your the URL to connect to the OpenShift Web Console. Then use AAD credentials provided.
+
 {% collapsible %}
 
 Red Hat OpenShift proposes several strategies to build and deploy applications on the platform. It is very helpful to leverage containers technology without knowledges about it. 

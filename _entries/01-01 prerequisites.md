@@ -32,6 +32,7 @@ If you need to create your own cluster, its creation is described in the next ch
 
 #### OpenShift CLI (oc)
 
+{% collapsible %}
 ```sh
 cd ~
 
@@ -50,6 +51,7 @@ The OpenShift CLI (oc) is now installed. You can use the **oc version** command 
 ```sh
 oc version
 ```
+{% endcollapsible %}
 
 ### Create an Azure DevOps account
 
