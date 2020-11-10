@@ -32,10 +32,6 @@ If you need to create your own cluster, its creation is described in the next ch
 
 #### OpenShift CLI (oc)
 
-> oc cli has been pre-installed on your Cloud Shell. Follow these steps only if you want to install oc cli on your own computer :
-
-{% collapsible %}
-
 ```sh
 cd ~
 
@@ -54,8 +50,6 @@ The OpenShift CLI (oc) is now installed. You can use the **oc version** command 
 ```sh
 oc version
 ```
-
-{% endcollapsible %}
 
 ### Create an Azure DevOps account
 
