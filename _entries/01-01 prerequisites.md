@@ -32,6 +32,8 @@ If you need to create your own cluster, its creation is described in the next ch
 
 #### OpenShift CLI (oc)
 
+> OpenShift CLI has been pre installed for this workshop
+
 {% collapsible %}
 ```sh
 cd ~

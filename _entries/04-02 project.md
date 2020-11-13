@@ -32,6 +32,8 @@ Open the [Azure Cloud Shell](https://shell.azure.com) and paste the login comman
 
 A project allows a community of users to organize and manage their content in isolation from other communities.
 
+> A OpenPaas for Azure project has been pre created in your organization.
+
 {% collapsible %}
 
 It also automatically create a "namespace" and access rights around it. You can create a project with the Web portal or with the **oc new-project** command
