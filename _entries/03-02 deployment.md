@@ -63,11 +63,10 @@ Download the Kubernetes deployment object yamls from the following locations to 
 
 {% collapsible %}
 
-Feel free to open them up and take a look at what we will be deploying. For simplicity of this lab we have placed all the Kubernetes objects we are deploying in one "all-in-one" yaml file.  Though in reality there are benefits to separating these out into individual yaml files.
-
-[ostoy-fe-deployment.yaml](/yaml/ostoy-fe-deployment.yaml)
-
-[ostoy-microservice-deployment.yaml](/yaml/ostoy-microservice-deployment.yaml)
+```
+wget https://raw.githubusercontent.com/microsoft/aroworkshop/master/yaml/ostoy-fe-deployment.yaml
+wget https://raw.githubusercontent.com/microsoft/aroworkshop/master/yaml/ostoy-microservice-deployment.yaml
+```
 
 {% endcollapsible %}
 
